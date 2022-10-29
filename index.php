@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<title>Registro</title>
+</head>
+<body>
+
+        <form action="enviar.php"  method="post">  
+            <h1>Registro</h1>  
+            <p>  
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>  
+            </p>
+            <p>
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" name="apellido" required>  
+            </p>
+            <p>
+                <label for="cedula">Cedula: </label>
+                <input type="text" id="cedula" name="cedula" required>
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" required>
+            </p>  
+            <p>  
+                <label for="telefono">Telefono: </label>  
+                <input type="text" id="telefono" name="telefono">  
+            </p>
+            <br>
+            <p>     
+                <input type="submit" value="Enviar registro" id="btnSend">
+            </p>
+            <br>  
+            <a href="index2.php">Iniciar Sesion</a>
+        </form>   
+
+</body>
+</html>
